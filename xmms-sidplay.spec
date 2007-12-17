@@ -13,7 +13,6 @@ BuildRequires: libxmms-devel
 BuildRequires: sidplay-devel
 Source:        %name-%version.tar.bz2
 Patch:	       xmms-sidplay-0.40-linking.patch
-BuildRoot:     %_tmppath/%name-buildroot
 BuildRequires: automake1.4
 Requires:      xmms
 
