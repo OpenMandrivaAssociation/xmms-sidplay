@@ -1,6 +1,6 @@
 %define name xmms-sidplay
 %define version 0.40
-%define release %mkrel 16
+%define release %mkrel 14
 
 Name:          %name
 Version:       %version
@@ -31,6 +31,7 @@ automake-1.4
 autoconf
 
 %build
+%define _disable_ld_no_undefined 1
 %configure2_5x
 
 %make
