@@ -1,0 +1,10 @@
+--- Makefile.am~	Tue Feb 26 21:17:26 2002
++++ Makefile.am	Tue Feb 26 21:17:34 2002
+@@ -2,6 +2,6 @@
+ 
+ lib_LTLIBRARIES = libsidplay.la
+ CXXFLAGS = @CFLAGS@ @GTK_CFLAGS@ @SIDPLAY_CFLAGS@
+-LIBS = @LIBS@ @GTK_LIBS@ @PTHREAD_LIBS@ @SIDPLAY_LIBS@
++LIBS = @LIBS@ @GTK_LIBS@ @PTHREAD_LIBS@ @SIDPLAY_LIBS@ -lstdc++
+ libsidplay_la_LDFLAGS = -export-dynamic -avoid-version
+ libsidplay_la_SOURCES = sid.cc
