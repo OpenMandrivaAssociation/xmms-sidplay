@@ -9,6 +9,9 @@ Summary:       SidPlay Output plugin for XMMS
 Group:         Sound
 URL:           https://www.lysator.liu.se/~hallon/sidplay.html
 License:       GPL
+BuildRequires:	autoconf
+BuildRequires:	libtool-base
+BuildRequires:	slibtool
 BuildRequires: libxmms-devel
 BuildRequires: sidplay-devel
 Source:        %name-%version.tar.bz2
