@@ -1,6 +1,6 @@
 %define name xmms-sidplay
 %define version 0.40
-%define release %mkrel 14
+%define release 15
 
 Name:          %name
 Version:       %version
